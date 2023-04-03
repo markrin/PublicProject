@@ -1,46 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-04-03T15:42:58.341Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="RyRAes8MTCyYbmgmWMfO" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-03T17:40:25.377Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="0zh_ZcaJSB-x7IsD0T0g" version="21.1.1" type="github">
   <diagram name="Page-1" id="Np5eYjGNwfx2u-zEs050">
-    <mxGraphModel dx="1054" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1049" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cp9X4eEYF-57bm0QKqgD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnqnTmCwI0y5mT0i5ol6-1" target="EnqnTmCwI0y5mT0i5ol6-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cp9X4eEYF-57bm0QKqgD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnqnTmCwI0y5mT0i5ol6-1" target="EnqnTmCwI0y5mT0i5ol6-5">
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EnqnTmCwI0y5mT0i5ol6-1" target="EnqnTmCwI0y5mT0i5ol6-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-1" value="AWS LB" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="210" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EnqnTmCwI0y5mT0i5ol6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="EnqnTmCwI0y5mT0i5ol6-2" target="EnqnTmCwI0y5mT0i5ol6-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="390" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-2" value="&lt;div&gt;AWS SG rule&lt;/div&gt;&lt;div&gt;out&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="160" width="130" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="EnqnTmCwI0y5mT0i5ol6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" target="EnqnTmCwI0y5mT0i5ol6-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="750" y="90" as="sourcePoint" />
-          </mxGeometry>
+          <mxGeometry x="80" y="290" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-3" value="&lt;div&gt;AWS SG rule&lt;/div&gt;&lt;div&gt;in&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="70" width="130" height="40" as="geometry" />
+          <mxGeometry x="80" y="200" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EnqnTmCwI0y5mT0i5ol6-4" value="&lt;div&gt;AWS Security&lt;/div&gt;&lt;div&gt;Group&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="100" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EnqnTmCwI0y5mT0i5ol6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EnqnTmCwI0y5mT0i5ol6-5" target="EnqnTmCwI0y5mT0i5ol6-7" edge="1">
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnqnTmCwI0y5mT0i5ol6-4" target="EnqnTmCwI0y5mT0i5ol6-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnqnTmCwI0y5mT0i5ol6-4" target="EnqnTmCwI0y5mT0i5ol6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnqnTmCwI0y5mT0i5ol6-4" target="EnqnTmCwI0y5mT0i5ol6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnqnTmCwI0y5mT0i5ol6-4" value="&lt;div&gt;AWS Security&lt;/div&gt;&lt;div&gt;Group&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="265" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-5" value="AWS LB Listener" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EnqnTmCwI0y5mT0i5ol6-7" target="EnqnTmCwI0y5mT0i5ol6-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-7" value="&lt;div&gt;AWS LB Listener&lt;/div&gt;&lt;div&gt;rule&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="760" y="320" width="130" height="40" as="geometry" />
+          <mxGeometry x="750" y="80" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnqnTmCwI0y5mT0i5ol6-8" target="EnqnTmCwI0y5mT0i5ol6-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-8" value="AWS LB Target Group" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="920" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EnqnTmCwI0y5mT0i5ol6-9" target="EnqnTmCwI0y5mT0i5ol6-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -49,43 +50,49 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-9" value="&lt;div&gt;AWS LB Target Group&lt;/div&gt;&lt;div&gt;Attachment&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="115" width="140" height="50" as="geometry" />
+          <mxGeometry x="1090" y="75" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-10" value="EC2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1110" y="290" width="80" height="80" as="geometry" />
+          <mxGeometry x="1120" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EnqnTmCwI0y5mT0i5ol6-16" target="EnqnTmCwI0y5mT0i5ol6-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-16" value="&lt;div&gt;AWS Security&lt;/div&gt;&lt;div&gt;Group&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="710" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EnqnTmCwI0y5mT0i5ol6-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EnqnTmCwI0y5mT0i5ol6-17" target="EnqnTmCwI0y5mT0i5ol6-16" edge="1">
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EnqnTmCwI0y5mT0i5ol6-17" target="EnqnTmCwI0y5mT0i5ol6-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-17" value="&lt;div&gt;AWS SG rule&lt;/div&gt;&lt;div&gt;http in&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="310" width="130" height="40" as="geometry" />
+          <mxGeometry x="880" y="220" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EnqnTmCwI0y5mT0i5ol6-19" target="EnqnTmCwI0y5mT0i5ol6-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-19" value="AWS VPS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1330" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EnqnTmCwI0y5mT0i5ol6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EnqnTmCwI0y5mT0i5ol6-20" target="EnqnTmCwI0y5mT0i5ol6-19" edge="1">
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EnqnTmCwI0y5mT0i5ol6-20" target="EnqnTmCwI0y5mT0i5ol6-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-20" value="AWS VPC Subnet IDs" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1530" y="110" width="130" height="60" as="geometry" />
+          <mxGeometry x="190" y="70" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-28" value="TF" style="triangle;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="880" y="470" width="60" height="80" as="geometry" />
+          <mxGeometry x="880" y="660" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cp9X4eEYF-57bm0QKqgD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.07;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnqnTmCwI0y5mT0i5ol6-29" target="EnqnTmCwI0y5mT0i5ol6-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-29" value="&lt;div&gt;Provider&lt;/div&gt;&lt;div&gt;(AWS)&lt;br&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="470" width="120" height="80" as="geometry" />
+          <mxGeometry x="1050" y="660" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cp9X4eEYF-57bm0QKqgD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cp9X4eEYF-57bm0QKqgD-1" target="EnqnTmCwI0y5mT0i5ol6-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cp9X4eEYF-57bm0QKqgD-1" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="430" width="520" height="160" as="geometry" />
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-1" value="TF Backend" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="620" width="520" height="250" as="geometry" />
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-23" value="S3 buket encription" style="rounded=1;whiteSpace=wrap;html=1;" parent="cp9X4eEYF-57bm0QKqgD-1" vertex="1">
           <mxGeometry x="10" y="60" width="120" height="60" as="geometry" />
@@ -101,6 +108,21 @@
         </mxCell>
         <mxCell id="EnqnTmCwI0y5mT0i5ol6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="cp9X4eEYF-57bm0QKqgD-1" source="EnqnTmCwI0y5mT0i5ol6-25" target="EnqnTmCwI0y5mT0i5ol6-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-7" value="DynamoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="cp9X4eEYF-57bm0QKqgD-1">
+          <mxGeometry x="210" y="150" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cp9X4eEYF-57bm0QKqgD-1" source="cp9X4eEYF-57bm0QKqgD-8" target="cp9X4eEYF-57bm0QKqgD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-8" value="TF state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cp9X4eEYF-57bm0QKqgD-1">
+          <mxGeometry x="340" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cp9X4eEYF-57bm0QKqgD-12" target="EnqnTmCwI0y5mT0i5ol6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cp9X4eEYF-57bm0QKqgD-12" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-70" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
