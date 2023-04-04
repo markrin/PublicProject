@@ -1,6 +1,6 @@
-<mxfile modified="2023-03-29T14:39:43.872Z" host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="1ldOTSfi6nxPGF4fEQP7" version="21.1.1" type="github">
+<mxfile modified="2023-04-04T07:04:06.195Z" host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="-lLQvTmkrFn2yA-2tsvr" version="21.1.1" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="2077" dy="2184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2409" dy="2400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -141,7 +141,7 @@
         <mxCell id="1qa2345JDhDKehQNPxXo-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="UEzPUAAOIrF-is8g5C7q-175" source="1qa2345JDhDKehQNPxXo-86" target="1qa2345JDhDKehQNPxXo-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1qa2345JDhDKehQNPxXo-86" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_nat_gateway;fillColor=#F58534;gradientColor=none;" parent="UEzPUAAOIrF-is8g5C7q-175" vertex="1">
+        <mxCell id="1qa2345JDhDKehQNPxXo-86" value="&lt;br&gt;&lt;div&gt;NAT&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;shape=mxgraph.aws3.vpc_nat_gateway;fillColor=#F58534;gradientColor=none;labelPosition=right;" parent="UEzPUAAOIrF-is8g5C7q-175" vertex="1">
           <mxGeometry x="1411" y="567.5" width="69" height="72" as="geometry" />
         </mxCell>
         <mxCell id="1qa2345JDhDKehQNPxXo-87" value="Private subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#147EBA;fillColor=#E6F2F8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" parent="UEzPUAAOIrF-is8g5C7q-175" vertex="1">
@@ -253,7 +253,7 @@
         <mxCell id="1qa2345JDhDKehQNPxXo-64" value="Access tocken" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.saml_token;" parent="1" vertex="1">
           <mxGeometry x="40" y="-680" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="1qa2345JDhDKehQNPxXo-67" value="&lt;div&gt;Add VPC CIDR blocks&lt;br&gt;&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" parent="1" vertex="1">
+        <mxCell id="1qa2345JDhDKehQNPxXo-67" value="&lt;div&gt;Add VPC CIDR blocks&lt;br&gt;&lt;/div&gt;&lt;div&gt;Add Elastic IP for NAT&lt;br&gt;&lt;/div&gt;&lt;div&gt;Add routing to IGW&lt;br&gt;&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" parent="1" vertex="1">
           <mxGeometry x="60" y="380" width="300" height="230" as="geometry" />
         </mxCell>
         <mxCell id="1qa2345JDhDKehQNPxXo-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="1qa2345JDhDKehQNPxXo-70" target="1qa2345JDhDKehQNPxXo-76" edge="1">
