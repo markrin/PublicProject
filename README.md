@@ -1,6 +1,7 @@
-## Something public
-created with diagrams.net. Schemas for different AWS infrastructure solutions. 
+## Schemas for different AWS infrastructure solutions. 
 ---
+__Created with diagrams.net__ 
+
 by branch:
 Basic schema of account with resources for histing containerized app on EC2 (main), 
 Advanced hosting of 3-tier web app (dev)
